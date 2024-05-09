@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense, useEffect } from "react";
+// import { Canvas } from "@react-three/fiber";
 
-function App() {
+// import App3D from "./3Delements/App3D.js";
+import App2D from "./2Delements/App2D.js";
+import "./3Delements/App3D.css";
+
+import infoData from "./infoData";
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Canvas className="main-canvas" shadows>
+        <App3D></App3D>
+      </Canvas> */}
+      <App2D />
     </div>
   );
-}
+};
 
 export default App;
