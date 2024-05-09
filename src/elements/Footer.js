@@ -1,0 +1,83 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faHouse,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
+import { faCity, faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faInstagram,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
+const Footer = () => {
+  return (
+    <div className="footer">
+      <div className="inner">
+        <h2>Get in touch</h2>
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+            </div>
+          </div>
+          <ul class="actions">
+            <li>
+              <input type="button" value="Send Message" />
+            </li>
+          </ul>
+        </form>
+        <ul className="contact">
+          <li>
+            <FontAwesomeIcon icon={faHouse} className="iconLogo" />
+            <span>Partizanskih baza 20</span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCity} className="iconLogo" />
+            <span>Subotica 24000, Serbia</span>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faPhone} className="iconLogo" />
+            <span>+381 65 331 07 99</span>
+          </li>
+          <li>
+            <a href="#">
+              <FontAwesomeIcon icon={faEnvelope} className="iconLogo" />
+              <span>popovic.ilija.99@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ilija-popovi%C4%87-36217917a/">
+              <FontAwesomeIcon icon={faLinkedin} className="iconLogo" />
+              <span>Ilija Popović</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/IlijaPopovic">
+              <FontAwesomeIcon icon={faGithub} className="iconLogo" />
+              <span>Ilija Popović</span>
+            </a>
+          </li>
+          <li>
+            <a href=" ">
+              <FontAwesomeIcon icon={faInstagram} className="iconLogo" />
+              <span>ili.ja.ili.ti</span>
+            </a>
+          </li>
+        </ul>
+        <p className="copy">&copy; Ilija Popović</p>
+      </div>
+    </div>
+  );
+};
+export default Footer;

@@ -1,11 +1,7 @@
-import React, { Suspense, useEffect } from "react";
 // import { Canvas } from "@react-three/fiber";
 
 // import App3D from "./3Delements/App3D.js";
-import App2D from "./2Delements/App2D.js";
-import "./3Delements/App3D.css";
-
-import infoData from "./infoData";
+import App2D from "./elements/App2D.js";
 
 const App = () => {
   return (
