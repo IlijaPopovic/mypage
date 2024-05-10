@@ -40,6 +40,9 @@ const Menu = (props) => {
 
       <header id="header" className="header">
         <nav>
+          <a href="#menu" className="menu">
+            CV
+          </a>
           <a href="#menu" className="menu" onClick={showMenuFunction}>
             <FontAwesomeIcon icon={faBars} className="icon" />
           </a>

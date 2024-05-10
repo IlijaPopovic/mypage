@@ -39,19 +39,25 @@ const Footer = () => {
         </form>
         <ul className="contact">
           <li>
-            <FontAwesomeIcon icon={faHouse} className="iconLogo" />
-            <span>Partizanskih baza 20</span>
+            <a href="https://www.google.com/maps/search/?api=1&query=Partizanskih+baza+20+Subotica">
+              <FontAwesomeIcon icon={faHouse} className="iconLogo" />
+              <span>Partizanskih baza 20</span>
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faCity} className="iconLogo" />
-            <span>Subotica 24000, Serbia</span>
+            <a href="https://www.google.com/maps/search/?api=1&query=Subotica+Serbia">
+              <FontAwesomeIcon icon={faCity} className="iconLogo" />
+              <span>Subotica, Serbia</span>
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon icon={faPhone} className="iconLogo" />
-            <span>+381 65 331 07 99</span>
+            <a href="tel:+381653310799">
+              <FontAwesomeIcon icon={faPhone} className="iconLogo" />
+              <span>+381 65 331 07 99</span>
+            </a>
           </li>
           <li>
-            <a href="#">
+            <a href="mailto:popovic.ilija.99@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} className="iconLogo" />
               <span>popovic.ilija.99@gmail.com</span>
             </a>

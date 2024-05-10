@@ -7,6 +7,9 @@ import PopUp from "./PopUp.js";
 import infoData from "..//infoData";
 import Sections from "./Sections.js";
 
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function App2D() {
   const [popUpContent, setPopUpContent] = useState(infoData.education);
   const [showPop, setShowPop] = useState(false);
@@ -32,6 +35,7 @@ function App2D() {
     <div className="App2D">
       <div className={"page-wrapper"}>
         <Menu popUp={popUp} />
+
         <PopUp
           content={popUpContent}
           showPopUpFunction={showPopUpFunction}
