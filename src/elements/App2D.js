@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Footer from "./Footer.js";
 import Menu from "./Menu.js";
 import PopUp from "./PopUp.js";
-import infoData from "..//infoData";
+import infoData from "..//infoData.json";
 import Sections from "./Sections.js";
 
 function App2D() {
