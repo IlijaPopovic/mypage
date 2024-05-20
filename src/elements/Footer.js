@@ -17,21 +17,21 @@ const Footer = () => {
       <div className="inner">
         <h2>Get in touch</h2>
         <form method="post" action="#">
-          <div class="fields">
-            <div class="field">
-              <label for="name">Name</label>
+          <div className="fields">
+            <div className="fieNameld">
+              <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
-            <div class="field">
-              <label for="email">Email</label>
+            <div className="field">
+              <label htmlFor="email">Email</label>
               <input type="email" name="email" id="email" />
             </div>
-            <div class="field">
-              <label for="message">Message</label>
+            <div className="field">
+              <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
           </div>
-          <ul class="actions">
+          <ul className="actions">
             <li>
               <input type="button" value="Send Message" />
             </li>

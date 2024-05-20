@@ -15,9 +15,9 @@ const Menu = (props) => {
         className={"menuPopUp " + (showMenu && "display")}
         onClick={showMenuFunction}
       >
-        <div class="innerMenu" onClick={childClick}>
+        <div className="innerMenu" onClick={childClick}>
           <h2>MENU</h2>
-          <ul class="spans">
+          <ul className="spans">
             <li>
               <span onClick={() => props.popUp("aboutMe")}>About me</span>
             </li>
@@ -31,7 +31,7 @@ const Menu = (props) => {
               <span onClick={() => props.popUp("projects")}>Projects</span>
             </li>
           </ul>
-          <a href="" class="close" onClick={showMenuFunction}>
+          <a href="" className="close" onClick={showMenuFunction}>
             Close
           </a>
         </div>
