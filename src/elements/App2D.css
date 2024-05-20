@@ -176,7 +176,7 @@ textarea {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: 300;
-  line-height: 1.65;
+  line-height: 1.45;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -568,10 +568,10 @@ img {
 @media screen and (max-width: 768px) {
   .inner {
     width: 100%;
-    padding: 0 20px;
+    padding: 5px 20px;
   }
   .inner .content {
-    padding: 0 20px;
+    padding: 0px 20px;
   }
 
   .section .inner {
