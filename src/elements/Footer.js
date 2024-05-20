@@ -4,7 +4,7 @@ import {
   faHouse,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import { faCity, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faCity } from "@fortawesome/free-solid-svg-icons";
 import {
   faLinkedin,
   faInstagram,

@@ -20,7 +20,7 @@ const Sections = (props) => {
 
       <section id="one" className="section one">
         <div className="inner rightSide">
-          <a href="#" className="image me">
+          <a href="/" className="image me">
             <img src={meImage} alt="" />
           </a>
           <div className="content">
@@ -36,7 +36,7 @@ const Sections = (props) => {
 
       <section id="two" className="section two">
         <div className="inner leftSide">
-          <a href="#" className="image">
+          <a href="/" className="image">
             <img src={vtsImage} alt="" />
           </a>
           <div className="content">
@@ -52,7 +52,7 @@ const Sections = (props) => {
 
       <section id="three" className="section three">
         <div className="inner rightSide">
-          <a href="#" className="image">
+          <a href="/" className="image">
             <img src={cofaImage} alt="" />
           </a>
           <div className="content">
@@ -71,7 +71,7 @@ const Sections = (props) => {
 
       <section id="four" className="section four">
         <div className="inner leftSide">
-          <a href="#" className="image">
+          <a href="/" className="image">
             <img src={cofaImage} alt="" />
           </a>
           <div className="content">

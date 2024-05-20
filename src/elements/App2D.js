@@ -11,7 +11,7 @@ function App2D() {
   const [popUpContent, setPopUpContent] = useState(infoData.education);
   const [showPop, setShowPop] = useState(false);
 
-  const Loader = () => <div className="loader">Loading...</div>;
+  // const Loader = () => <div className="loader">Loading...</div>;
 
   const showPopUpFunction = () => setShowPop(!showPop);
 
@@ -30,13 +30,13 @@ function App2D() {
     }
   }, [showPop]);
 
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    window.onload = () => {
-      setLoading(false);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.onload = () => {
+  //     setLoading(false);
+  //   };
+  // }, []);
 
   // if (loading) {
   //   return <Loader />;
