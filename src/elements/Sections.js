@@ -2,7 +2,7 @@ import cofaImage from "../images/cofa32.png";
 import vtsImage from "../images/VTS_logo2.png";
 import meImage from "../images/me2.png";
 
-import infoData from "..//infoData";
+import infoData from "..//infoData.json";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleRight } from "@fortawesome/free-regular-svg-icons";
