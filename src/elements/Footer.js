@@ -39,13 +39,21 @@ const Footer = () => {
         </form>
         <ul className="contact">
           <li>
-            <a href="https://www.google.com/maps/search/?api=1&query=Partizanskih+baza+20+Subotica">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Partizanskih+baza+20+Subotica"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faHouse} className="iconLogo" />
               <span>Partizanskih baza 20</span>
             </a>
           </li>
           <li>
-            <a href="https://www.google.com/maps/search/?api=1&query=Subotica+Serbia">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Subotica+Serbia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faCity} className="iconLogo" />
               <span>Subotica, Serbia</span>
             </a>
@@ -63,19 +71,27 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ilija-popovi%C4%87-36217917a/">
+            <a
+              href="https://www.linkedin.com/in/ilija-popovi%C4%87-36217917a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faLinkedin} className="iconLogo" />
               <span>Ilija Popović</span>
             </a>
           </li>
           <li>
-            <a href="https://github.com/IlijaPopovic">
+            <a
+              href="https://github.com/IlijaPopovic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} className="iconLogo" />
               <span>Ilija Popović</span>
             </a>
           </li>
           <li>
-            <a href=" ">
+            <a href=" " target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} className="iconLogo" />
               <span>ili.ja.ili.ti</span>
             </a>

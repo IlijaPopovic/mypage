@@ -1,7 +1,6 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
-import { span } from "react-router-dom";
 
 const Menu = (props) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -40,7 +39,12 @@ const Menu = (props) => {
 
       <header id="header" className="header">
         <nav>
-          <a href="#menu" className="menu">
+          <a
+            href="https://drive.google.com/file/d/12plz892X6Lauziwtk4fv82YQfjwcXBh-/view?usp=sharing"
+            className="menu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             CV
           </a>
           <a href="#menu" className="menu" onClick={showMenuFunction}>

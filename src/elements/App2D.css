@@ -564,3 +564,34 @@ img {
     margin-top: var(--diagonally-height);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .inner .content {
+    padding: 0 20px;
+  }
+
+  .section .inner {
+    flex-direction: column;
+  }
+
+  .section .inner .image {
+    margin: 0 0 35px 0;
+  }
+
+  .footer {
+    height: auto;
+  }
+
+  .footer form,
+  .footer .contact {
+    width: 100%;
+  }
+
+  /* h2 {
+    text-align: center;
+  } */
+}

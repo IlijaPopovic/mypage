@@ -7,12 +7,11 @@ import PopUp from "./PopUp.js";
 import infoData from "..//infoData";
 import Sections from "./Sections.js";
 
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 function App2D() {
   const [popUpContent, setPopUpContent] = useState(infoData.education);
   const [showPop, setShowPop] = useState(false);
+
+  const Loader = () => <div className="loader">Loading...</div>;
 
   const showPopUpFunction = () => setShowPop(!showPop);
 
@@ -30,6 +29,18 @@ function App2D() {
       document.querySelector(".pop-section").classList.remove("inner", "open");
     }
   }, [showPop]);
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    window.onload = () => {
+      setLoading(false);
+    };
+  }, []);
+
+  // if (loading) {
+  //   return <Loader />;
+  // }
 
   return (
     <div className="App2D">
