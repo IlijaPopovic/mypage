@@ -20,9 +20,9 @@ const Sections = (props) => {
 
       <section id="one" className="section one">
         <div className="inner rightSide">
-          <a href="/" className="image me">
+          <span className="image me">
             <img src={meImage} alt="" />
-          </a>
+          </span>
           <div className="content">
             <h2 className="title">About me</h2>
             <p>{infoData.aboutMe.shortText}</p>
@@ -36,9 +36,9 @@ const Sections = (props) => {
 
       <section id="two" className="section two">
         <div className="inner leftSide">
-          <a href="/" className="image">
+          <span className="image">
             <img src={vtsImage} alt="" />
-          </a>
+          </span>
           <div className="content">
             <h2 className="title">Education</h2>
             <p>{infoData.education.shortText}</p>
@@ -52,9 +52,9 @@ const Sections = (props) => {
 
       <section id="three" className="section three">
         <div className="inner rightSide">
-          <a href="/" className="image">
+          <span className="image">
             <img src={cofaImage} alt="" />
-          </a>
+          </span>
           <div className="content">
             <h2 className="title">Experience</h2>
             <p>{infoData.experience.shortText}</p>
@@ -71,9 +71,9 @@ const Sections = (props) => {
 
       <section id="four" className="section four">
         <div className="inner leftSide">
-          <a href="/" className="image">
+          <span className="image">
             <img src={cofaImage} alt="" />
-          </a>
+          </span>
           <div className="content">
             <h2 className="title">Projects</h2>
             <p>{infoData.projects.shortText}</p>

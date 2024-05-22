@@ -334,8 +334,8 @@ img {
   border: none;
   box-shadow: none;
   font-size: 1.9em;
-  height: 1.5em;
-  line-height: 1.5em;
+  height: 1.3em;
+  line-height: 1.3em;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 .pop-section p {
@@ -441,7 +441,7 @@ img {
   margin-right: 50px;
 }
 
-.section a.image {
+.section span.image {
   min-width: 200px;
   height: 200px;
   overflow: hidden;
@@ -600,7 +600,7 @@ img {
   }
   .inner {
     width: 100%;
-    padding: 10px 20px;
+    padding: 15px 20px 20px 20px;
   }
   .inner .content {
     padding: 0px 20px;
