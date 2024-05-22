@@ -25,7 +25,7 @@ const Menu = (props) => {
               <span onClick={() => props.popUp("education")}>Education</span>
             </li>
             <li>
-              <span onClick={() => props.popUp("experience")}>Experiance</span>
+              <span onClick={() => props.popUp("experience")}>Experience</span>
             </li>
             <li>
               <span onClick={() => props.popUp("projects")}>Projects</span>
