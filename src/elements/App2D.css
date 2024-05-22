@@ -242,7 +242,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   animation: fadeDark 0.3s ease-in-out;
-  transition: height 1s ease;
+  transition: height 0.2s ease;
   will-change: height;
 }
 .innerMenu {
@@ -269,7 +269,7 @@ img {
   padding-bottom: 5dvh;
   padding-top: 5dvh;
   background-image: var(--banner-color);
-  transition: height 1s ease;
+  transition: height 0.2s ease;
   will-change: height;
 }
 
@@ -305,7 +305,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 5;
   animation: fadeDark 0.3s ease-in-out;
-  transition: height 1s ease;
+  transition: height 0.2s ease;
   will-change: height;
 }
 .pop-section {
@@ -322,7 +322,7 @@ img {
   display: block;
   height: 80dvh;
   overflow: scroll;
-  transition: height 1s ease;
+  transition: height 0.2s ease;
   will-change: height;
 }
 
@@ -464,7 +464,7 @@ img {
   justify-content: center;
   background-image: var(--footer-color);
   height: 100dvh;
-  transition: height 1s ease;
+  transition: height 0.2s ease;
   will-change: height;
 }
 
