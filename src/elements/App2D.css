@@ -242,7 +242,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   animation: fadeDark 0.3s ease-in-out;
-  transition: height 0.3s ease-in-out;
+  transition: height 1s ease-in-out;
 }
 .innerMenu {
   background-color: rgba(0, 104, 145, 0.98);
@@ -268,7 +268,7 @@ img {
   padding-bottom: 5dvh;
   padding-top: 5dvh;
   background-image: var(--banner-color);
-  transition: height 0.3s ease-in-out;
+  transition: height 1s ease-in-out;
 }
 
 .banner .inner {
@@ -303,7 +303,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 5;
   animation: fadeDark 0.3s ease-in-out;
-  transition: height 0.3s ease-in-out;
+  transition: height 1s ease-in-out;
 }
 .pop-section {
   background-color: rgba(0, 104, 145, 0.98);
@@ -319,6 +319,7 @@ img {
   display: block;
   height: 80dvh;
   overflow: scroll;
+  transition: height 1s ease-in-out;
 }
 
 .pop-section.inner.open {
@@ -459,7 +460,7 @@ img {
   justify-content: center;
   background-image: var(--footer-color);
   height: 100dvh;
-  transition: height 0.3s ease-in-out;
+  transition: height 1s ease-in-out;
 }
 
 .footer .inner {
