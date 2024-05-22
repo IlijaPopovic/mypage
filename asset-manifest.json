@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mypage/static/css/main.ff7670a8.css",
+    "main.css": "/mypage/static/css/main.01550155.css",
     "main.js": "/mypage/static/js/main.748624e3.js",
     "static/js/453.01c969ee.chunk.js": "/mypage/static/js/453.01c969ee.chunk.js",
     "static/media/me2.png": "/mypage/static/media/me2.f7c7322756c4ddff9151.png",
     "static/media/VTS_logo2.png": "/mypage/static/media/VTS_logo2.6573cee218da3b71b9fe.png",
     "static/media/cofa32.png": "/mypage/static/media/cofa32.f703abd50218c2d34703.png",
     "index.html": "/mypage/index.html",
-    "main.ff7670a8.css.map": "/mypage/static/css/main.ff7670a8.css.map",
+    "main.01550155.css.map": "/mypage/static/css/main.01550155.css.map",
     "main.748624e3.js.map": "/mypage/static/js/main.748624e3.js.map",
     "453.01c969ee.chunk.js.map": "/mypage/static/js/453.01c969ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff7670a8.css",
+    "static/css/main.01550155.css",
     "static/js/main.748624e3.js"
   ]
 }
