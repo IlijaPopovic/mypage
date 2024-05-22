@@ -269,6 +269,7 @@ img {
   padding-top: 5dvh;
   background-image: var(--banner-color);
   transition: height 1s ease;
+  will-change: height;
 }
 
 .banner .inner {
