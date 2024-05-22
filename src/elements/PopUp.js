@@ -10,7 +10,10 @@ const PopUp = (props) => {
       onClick={props.showPopUpFunction}
     >
       <section className="pop-section inner" onClick={childClick}>
-        <h2>{props.content.title}</h2>
+        <div className="pop-header">
+          <h2>{props.content.title}</h2>
+          <button onClick={props.showPopUpFunction}>X</button>
+        </div>
         <p>{props.content.text}</p>
       </section>
     </div>

@@ -195,7 +195,7 @@ a:active {
 
 .inner {
   margin: 0 auto;
-  width: 40em;
+  width: 1000px;
 }
 
 h2 {
@@ -322,6 +322,22 @@ img {
   text-align: justify;
   animation: scaleUp 0.3s ease-in-out;
 }
+.pop-section .pop-header {
+  position: relative;
+}
+.pop-section .pop-header button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  font-size: 1.9em;
+  height: 1.5em;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
 .pop-section p {
   padding: 5px 0;
   display: block;
@@ -431,7 +447,7 @@ img {
   overflow: hidden;
   border-radius: 50%;
   border: 2px solid #ffffff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .image.me {
@@ -578,13 +594,13 @@ img {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .header {
     position: absolute;
   }
   .inner {
     width: 100%;
-    padding: 5px 20px;
+    padding: 10px 20px;
   }
   .inner .content {
     padding: 0px 20px;
