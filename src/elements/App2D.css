@@ -270,9 +270,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90dvh;
-  padding-bottom: 5dvh;
-  padding-top: 5dvh;
+  height: 90svh;
+  padding-bottom: 5svh;
+  padding-top: 5svh;
   background-image: var(--banner-color);
   transition: height 0.2s ease;
   will-change: height;
@@ -468,9 +468,7 @@ img {
   align-items: center;
   justify-content: center;
   background-image: var(--footer-color);
-  height: 100dvh;
-  transition: height 0.2s ease;
-  will-change: height;
+  height: 100vh;
 }
 
 .footer .inner {
