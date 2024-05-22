@@ -243,6 +243,7 @@ img {
   z-index: 1;
   animation: fadeDark 0.3s ease-in-out;
   transition: height 1s ease;
+  will-change: height;
 }
 .innerMenu {
   background-color: rgba(0, 104, 145, 0.98);
@@ -305,6 +306,7 @@ img {
   z-index: 5;
   animation: fadeDark 0.3s ease-in-out;
   transition: height 1s ease;
+  will-change: height;
 }
 .pop-section {
   background-color: rgba(0, 104, 145, 0.98);
@@ -321,6 +323,7 @@ img {
   height: 80dvh;
   overflow: scroll;
   transition: height 1s ease;
+  will-change: height;
 }
 
 .pop-section.inner.open {
@@ -462,6 +465,7 @@ img {
   background-image: var(--footer-color);
   height: 100dvh;
   transition: height 1s ease;
+  will-change: height;
 }
 
 .footer .inner {
