@@ -236,7 +236,7 @@ img {
   position: fixed;
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
@@ -263,9 +263,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
-  padding-bottom: 5vh;
-  padding-top: 5vh;
+  height: 90dvh;
+  padding-bottom: 5dvh;
+  padding-top: 5dvh;
   background-image: var(--banner-color);
 }
 
@@ -294,7 +294,7 @@ img {
 .PopUp {
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   display: none;
   justify-content: center;
   align-items: center;
@@ -314,7 +314,7 @@ img {
 .pop-section p {
   padding: 5px 0;
   display: block;
-  height: 80vh;
+  height: 80dvh;
   overflow: scroll;
 }
 
@@ -455,7 +455,7 @@ img {
   align-items: center;
   justify-content: center;
   background-image: var(--footer-color);
-  height: 100vh;
+  height: 100dvh;
 }
 
 .footer .inner {
