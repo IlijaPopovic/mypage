@@ -230,6 +230,11 @@ img {
   padding: 10px 20px;
   margin: 10px;
   font-size: 0.8em;
+  /* background-color: rgba(0, 31, 43, 0.8); */
+}
+
+.cv {
+  margin-right: 0;
 }
 
 .menuPopUp {
@@ -576,6 +581,9 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    position: absolute;
+  }
   .inner {
     width: 100%;
     padding: 5px 20px;

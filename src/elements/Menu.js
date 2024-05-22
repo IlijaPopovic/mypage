@@ -41,7 +41,7 @@ const Menu = (props) => {
         <nav>
           <a
             href="https://drive.google.com/file/d/12plz892X6Lauziwtk4fv82YQfjwcXBh-/view?usp=sharing"
-            className="menu"
+            className="menu cv"
             target="_blank"
             rel="noopener noreferrer"
           >
