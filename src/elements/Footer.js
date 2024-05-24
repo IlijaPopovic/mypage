@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <ul className="actions">
             <li>
-              <input type="button" value="Send Message" />
+              <input type="submit" value="Send Message" />
             </li>
           </ul>
         </form>
