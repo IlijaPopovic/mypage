@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="footer">
       <div className="inner">
         <h2>Get in touch</h2>
-        <form method="post" action="#">
+        <form method="post" action="https://formspree.io/f/mleqkwqe">
           <div className="fields">
             <div className="fieNameld">
               <label htmlFor="name">Name</label>
