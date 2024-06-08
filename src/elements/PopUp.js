@@ -6,6 +6,14 @@ const PopUp = (props) => {
   const childClick = (event) => {
     event.stopPropagation();
   };
+
+  const body = props.content.body.map((item, index) => (
+    <div key={index}>
+      <h3>{item.subTitle}</h3>
+      <p>{item.text}</p>
+    </div>
+  ));
+
   return (
     <div
       className={"PopUp " + (props.showPop && "display")}
@@ -18,7 +26,7 @@ const PopUp = (props) => {
             <FontAwesomeIcon icon={faCircleLeft} className="icon" />
           </button>
         </div>
-        <p>{props.content.text}</p>
+        <div className="pop-body">{body}</div>
       </section>
     </div>
   );

@@ -20,16 +20,6 @@ function App2D() {
     showPopUpFunction();
   };
 
-  useEffect(() => {
-    if (showPop) {
-      document.body.classList.add("no-scroll");
-      document.querySelector(".pop-section").classList.add("inner", "open");
-    } else {
-      document.body.classList.remove("no-scroll");
-      document.querySelector(".pop-section").classList.remove("inner", "open");
-    }
-  }, [showPop]);
-
   // const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
