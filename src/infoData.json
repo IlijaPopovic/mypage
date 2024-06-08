@@ -4,17 +4,22 @@
     "shortText": "My expertise encompasses game design, database administration, and testing for quality assurance. From crafting immersive gaming experiences to ensuring data integrity and product functionality, I've developed a versatile skill set to tackle diverse challenges in technology and innovation.",
     "body": [
       {
-        "id": "gameDesign",
+        "id": "1",
+        "subTitle": "Web Development",
+        "text": "In the realm of game design, I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
+      },
+      {
+        "id": "2",
         "subTitle": "Game Design",
         "text": "In the realm of game design, I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
       },
       {
-        "id": "databaseAdministration",
+        "id": "3",
         "subTitle": "Database Administration",
         "text": "In the realm of database administration, I've demonstrated proficiency in working with database software to store, organize, and manage data effectively. From designing and developing databases to implementing maintenance procedures, I've ensured the reliability and efficiency of data storage systems. Additionally, I've excelled in monitoring performance statistics, conducting data extraction and examination, and generating comprehensive reports to support informed decision-making."
       },
       {
-        "id": "testingAndQA",
+        "id": "4",
         "subTitle": "Testing and Quality Assurance",
         "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
       }
@@ -26,18 +31,23 @@
     "shortText": "My educational journey began at high school in Subotica, where I developed a strong technical foundation. I furthered my skills at a bootcamp before pursuing studies at a college in Subotica. Seeking an international perspective, I then attended an university in Linz, Austria. Each step has shaped my expertise and worldview, guiding me towards my aspirations.",
     "body": [
       {
-        "id": "gameDesign",
-        "subTitle": "Game Design",
+        "id": "1",
+        "subTitle": "Johanes Kepler University",
         "text": "In the realm of game design, I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
       },
       {
-        "id": "databaseAdministration",
-        "subTitle": "Database Administration",
+        "id": "2",
+        "subTitle": "Higher Technical School of Professional Studies",
         "text": "In the realm of database administration, I've demonstrated proficiency in working with database software to store, organize, and manage data effectively. From designing and developing databases to implementing maintenance procedures, I've ensured the reliability and efficiency of data storage systems. Additionally, I've excelled in monitoring performance statistics, conducting data extraction and examination, and generating comprehensive reports to support informed decision-making."
       },
       {
-        "id": "testingAndQA",
-        "subTitle": "Testing and Quality Assurance",
+        "id": "3",
+        "subTitle": "IT academy",
+        "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
+      },
+      {
+        "id": "4",
+        "subTitle": "Technical School 'Ivan Sarić'",
         "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
       }
     ],
@@ -48,18 +58,18 @@
     "shortText": "I am a passionate software developer with a diverse range of experiences across various domains, including game design, database administration, and testing and QA. I am always eager to learn and push the boundaries of creativity and innovation in the gaming industry.",
     "body": [
       {
-        "id": "gameDesign",
-        "subTitle": "Game Design",
+        "id": "1",
+        "subTitle": "Begining",
         "text": "In the realm of game design, I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
       },
       {
-        "id": "databaseAdministration",
-        "subTitle": "Database Administration",
+        "id": "2",
+        "subTitle": "Motivation",
         "text": "In the realm of database administration, I've demonstrated proficiency in working with database software to store, organize, and manage data effectively. From designing and developing databases to implementing maintenance procedures, I've ensured the reliability and efficiency of data storage systems. Additionally, I've excelled in monitoring performance statistics, conducting data extraction and examination, and generating comprehensive reports to support informed decision-making."
       },
       {
-        "id": "testingAndQA",
-        "subTitle": "Testing and Quality Assurance",
+        "id": "3",
+        "subTitle": "Future",
         "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
       }
     ],
@@ -70,18 +80,28 @@
     "shortText": "In my web projects, I've handled both front-end and back-end tasks, including database design, API creation, and UI/UX development. From team-based efforts like game development to solo ventures, I've focused on delivering cohesive digital solutions with a strong emphasis on functionality and user experience.",
     "body": [
       {
-        "id": "gameDesign",
-        "subTitle": "Game Design",
+        "id": "1",
+        "subTitle": "Awakening of Heroes videogame",
         "text": "In the realm of game design, I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
       },
       {
-        "id": "databaseAdministration",
-        "subTitle": "Database Administration",
+        "id": "2",
+        "subTitle": "Cinema booking website",
         "text": "In the realm of database administration, I've demonstrated proficiency in working with database software to store, organize, and manage data effectively. From designing and developing databases to implementing maintenance procedures, I've ensured the reliability and efficiency of data storage systems. Additionally, I've excelled in monitoring performance statistics, conducting data extraction and examination, and generating comprehensive reports to support informed decision-making."
       },
       {
-        "id": "testingAndQA",
-        "subTitle": "Testing and Quality Assurance",
+        "id": "3",
+        "subTitle": "Tourist agency website",
+        "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
+      },
+      {
+        "id": "3",
+        "subTitle": "Unbeatable Tick-Tac-Toe",
+        "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
+      },
+      {
+        "id": "4",
+        "subTitle": "Quick Learn website",
         "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
       }
     ],
