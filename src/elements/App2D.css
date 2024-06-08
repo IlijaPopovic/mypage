@@ -177,7 +177,7 @@ textarea {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16.5pt;
   font-weight: 300;
-  line-height: 1.1;
+  line-height: 1.25;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -355,6 +355,7 @@ img {
   overflow: scroll;
   transition: height 0.2s ease;
   will-change: height;
+  line-height: 1.1em;
 }
 
 .pop-section .pop-body div {
