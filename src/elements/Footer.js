@@ -10,26 +10,38 @@ import {
   faInstagram,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { useState } from "react";
 
 const Footer = () => {
+  const [submitted, setSubmitted] = useState("Send Message");
+  const [disableButton, setdisableButton] = useState(false);
   const handleSubmit = (event) => {
     event.preventDefault();
 
     let formData = new FormData(event.target);
+    let name = formData.get("name");
+    let email = formData.get("email");
+    let message = formData.get("message");
+
+    if (!name || !email || !message) {
+      setSubmitted("Fill in fields");
+      return;
+    }
 
     fetch("https://formspree.io/f/mleqkwqe", {
       method: "POST",
+      mode: "no-cors",
       body: formData,
     })
-      .then((response) => {
-        console.log(response);
-        // if (response.ok) {
-        //   console.log("Form submitted successfully");
-        // } else {
-        //   throw new Error("Form submission failed");
-        // }
+      .then(() => {
+        setSubmitted("Submitted");
       })
-      .catch((error) => console.error(error));
+      .catch((error) => {
+        setSubmitted("Please try again");
+      })
+      .finally(() => {
+        setdisableButton(true);
+      });
   };
 
   return (
@@ -58,7 +70,7 @@ const Footer = () => {
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" />
+              <input type="submit" value={submitted} disabled={disableButton} />
             </li>
           </ul>
         </form>
