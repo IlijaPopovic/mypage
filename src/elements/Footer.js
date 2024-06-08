@@ -12,11 +12,36 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    let formData = new FormData(event.target);
+
+    fetch("https://formspree.io/f/mleqkwqe", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => {
+        console.log(response);
+        // if (response.ok) {
+        //   console.log("Form submitted successfully");
+        // } else {
+        //   throw new Error("Form submission failed");
+        // }
+      })
+      .catch((error) => console.error(error));
+  };
+
   return (
     <div className="footer">
       <div className="inner">
         <h2>Get in touch</h2>
-        <form method="post" action="https://formspree.io/f/mleqkwqe">
+        <form
+          id="myForm"
+          method="post"
+          action="https://formspree.io/f/mleqkwqe"
+          onSubmit={handleSubmit}
+        >
           <div className="fields">
             <div className="fieNameld">
               <label htmlFor="name">Name</label>
