@@ -5,7 +5,7 @@
     "body": [
       {
         "id": "1",
-        "subTitle": "Game Design",
+        "subTitle": "",
         "text": "I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
       },
       {
@@ -62,18 +62,43 @@
     "body": [
       {
         "id": "1",
-        "subTitle": "Begining",
-        "text": "In the realm of game design, I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of a game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences."
+        "subTitle": "",
+        "text": "Hello and welcome to my corner of the digital world! My name is Ilija Popović, and I am a passionate and dedicated software developer with a rich tapestry of experiences that span across education, professional ventures, and diverse projects. My journey into the captivating realm of software development commenced at Technical School 'Ivan Sarić' in Subotica, where I first delved into the intricacies of programming and software creation. This foundation laid the groundwork for my burgeoning career, equipping me with essential knowledge and skills that have since been the cornerstone of my professional endeavors."
       },
       {
         "id": "2",
-        "subTitle": "Motivation",
-        "text": "In the realm of database administration, I've demonstrated proficiency in working with database software to store, organize, and manage data effectively. From designing and developing databases to implementing maintenance procedures, I've ensured the reliability and efficiency of data storage systems. Additionally, I've excelled in monitoring performance statistics, conducting data extraction and examination, and generating comprehensive reports to support informed decision-making."
+        "subTitle": "",
+        "text": "Upon completing high school in 2018, I moved to Belgrade to embrace a promising opportunity at a forward-thinking company. Concurrently, I seized the chance to further hone my expertise by enrolling in a year-long IT Academy program. Specializing in web development, I immersed myself in both front-end and back-end technologies, igniting a passion for crafting innovative software solutions that I eagerly applied to my work."
       },
       {
         "id": "3",
-        "subTitle": "Future",
-        "text": "In the realm of testing and quality assurance (QA), I've taken on leadership roles, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I've ensured the integrity of game functionality while"
+        "subTitle": "",
+        "text": "In 2020, as the global pandemic reshaped the world, I adapted by relocating back to Subotica and transitioning seamlessly into remote work. This newfound flexibility allowed me to enrich my academic journey further at Subotica Tech College, delving into advanced topics in computer science and refining my understanding of algorithms, data structures, and software architecture."
+      },
+      {
+        "id": "4",
+        "subTitle": "",
+        "text": "Early 2022 marked a significant milestone in my career when I was honored with the opportunity to participate in the prestigious Central European Exchange program at Johannes Kepler University in Linz, Austria. This transformative experience broadened my horizons, exposing me to diverse perspectives and innovative approaches in software development. Engaging in collaborative projects and intensive coursework, I emerged as a more adept and well-rounded professional, culminating in my graduation in October 2023."
+      },
+      {
+        "id": "5",
+        "subTitle": "",
+        "text": "Professionally, I have cultivated a robust skill set in various domains, including game design, database administration, testing and quality assurance, and web development. As a game designer, I have meticulously planned and executed immersive gaming experiences, collaborating with UX and UI designers to optimize player interfaces and conducting extensive market research to drive the creation of captivating game experiences. My database administration experience involves designing, developing, and maintaining reliable data storage systems, while my expertise in testing and QA ensures the integrity and balance of game functionality."
+      },
+      {
+        "id": "6",
+        "subTitle": "",
+        "text": "In web development, I have designed and implemented user-friendly websites, integrating both front-end and back-end technologies to ensure optimal performance and responsiveness. My projects, such as 'Awakening of Heroes,' 'Cinema Booking,' 'Tourist Agency,' and 'Unbeatable Tic-Tac-Toe,' showcase my ability to merge creativity with technical prowess, delivering innovative solutions that enhance user experiences."
+      },
+      {
+        "id": "7",
+        "subTitle": "",
+        "text": "Throughout my journey, I have embodied resilience, curiosity, and a relentless pursuit of excellence, driving innovation and fostering success in the dynamic and ever-evolving field of software development. As I continue to push the boundaries of creativity and innovation, I eagerly anticipate the myriad opportunities that lie ahead in the gaming industry and beyond."
+      },
+      {
+        "id": "8",
+        "subTitle": "",
+        "text": "Thank you for visiting my website. I look forward to connecting with you and exploring the exciting possibilities of the digital world together!"
       }
     ]
   },
@@ -84,22 +109,26 @@
       {
         "id": "1",
         "subTitle": "Awakening of Heroes",
-        "text": "Working on 'Awakening of Heroes,' I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of the game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences. In addition to game design, I played a significant role in quality assurance, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I ensured the integrity of game functionality. I also contributed to database administration, designing and developing databases to manage game data effectively and ensuring the reliability and efficiency of data storage systems."
+        "text": "Working on 'Awakening of Heroes,' I've honed my skills in crafting immersive gaming experiences by meticulously considering, planning, and detailing every element of the game. From conceptualizing and expanding game concepts to managing tasks for developers, I've led teams in transforming rough ideas into detailed concepts and implementing them into engaging gameplay. My expertise extends to collaborating with User Experience (UX) and User Interface (UI) Designers to optimize player interfaces, ensuring seamless and intuitive interactions. Moreover, I've conducted extensive market research to understand the desires of target audiences, driving the creation of innovative and captivating game experiences. In addition to game design, I played a significant role in quality assurance, overseeing teams of game testers to analyze feedback and locate potential defects. Through meticulous testing, bug analysis, and verification processes, I ensured the integrity of game functionality. I also contributed to database administration, designing and developing databases to manage game data effectively and ensuring the reliability and efficiency of data storage systems.",
+        "gitLink": ""
       },
       {
         "id": "2",
         "subTitle": "Cinema Booking",
-        "text": "In the cinema booking project, I gained extensive experience in both backend and frontend development. I created APIs to facilitate seamless communication between the frontend and backend, enabling dynamic alterations of web pages. My responsibilities included implementing features for booking cinema tickets when users selected their seats, managing reserved tickets and cinemas, and overseeing user account management. Additionally, I developed tools for administrators to manage cinema schedules and reservations efficiently. This project advanced my web development skills, giving me a comprehensive understanding of integrating various components to create a smooth, efficient, and user-friendly experience."
+        "text": "In the cinema booking project, I gained extensive experience in both backend and frontend development. I created APIs to facilitate seamless communication between the frontend and backend, enabling dynamic alterations of web pages. My responsibilities included implementing features for booking cinema tickets when users selected their seats, managing reserved tickets and cinemas, and overseeing user account management. Additionally, I developed tools for administrators to manage cinema schedules and reservations efficiently. This project advanced my web development skills, giving me a comprehensive understanding of integrating various components to create a smooth, efficient, and user-friendly experience.",
+        "gitLink": "https://github.com/IlijaPopovic/CinemaBooking"
       },
       {
         "id": "3",
         "subTitle": "Tourist Agency",
-        "text": "During my time with a tourist agency project, I gained extensive experience in various technologies and development processes. I researched React.js for web development, React Native for mobile apps, PHP for backend logic, and MySQL for database management. I created project plans, set up development environments, and developed both frontend and backend components. My work included implementing user registration, attraction search and display, and user rating systems. I ensured security with user authentication and protection against SQL injection and XSS attacks. Additionally, I conducted thorough testing and deployed the web and mobile applications to production. These experiences enhanced my skills in web and mobile development, backend management, and application security, providing a strong foundation for future projects."
+        "text": "During my time with a tourist agency project, I gained extensive experience in various technologies and development processes. I researched React.js for web development, React Native for mobile apps, PHP for backend logic, and MySQL for database management. I created project plans, set up development environments, and developed both frontend and backend components. My work included implementing user registration, attraction search and display, and user rating systems. I ensured security with user authentication and protection against SQL injection and XSS attacks. Additionally, I conducted thorough testing and deployed the web and mobile applications to production. These experiences enhanced my skills in web and mobile development, backend management, and application security, providing a strong foundation for future projects.",
+        "gitLink": "https://github.com/IlijaPopovic/TourNow"
       },
       {
         "id": "4",
         "subTitle": "Unbeatable Tic-Tac-Toe",
-        "text": "Creating 'Unbeatable Tic-Tac-Toe' in React and implementing the Minimax algorithm to power an unbeatable AI was a rewarding challenge that combined the intricacies of game development with the logic of artificial intelligence. By utilizing React's component-based architecture, I represented each square of the Tic Tac Toe grid as a component, making the code modular and easy to manage. Integrating the Minimax algorithm added a layer of complexity, enabling the AI to analyze all possible moves and choose the optimal one, ensuring that it couldn't be defeated by human players. This project showcased my ability to combine modern web development techniques with AI to create engaging and challenging gaming experiences."
+        "text": "Creating 'Unbeatable Tic-Tac-Toe' in React and implementing the Minimax algorithm to power an unbeatable AI was a rewarding challenge that combined the intricacies of game development with the logic of artificial intelligence. By utilizing React's component-based architecture, I represented each square of the Tic Tac Toe grid as a component, making the code modular and easy to manage. Integrating the Minimax algorithm added a layer of complexity, enabling the AI to analyze all possible moves and choose the optimal one, ensuring that it couldn't be defeated by human players. This project showcased my ability to combine modern web development techniques with AI to create engaging and challenging gaming experiences.",
+        "gitLink": "https://github.com/IlijaPopovic/unbeatable-xo-ai"
       }
     ]
   }
