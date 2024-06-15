@@ -354,7 +354,7 @@ img {
 }
 .pop-section .pop-body {
   padding: 5px 0;
-  height: 85dvh;
+  height: 80dvh;
   overflow: scroll;
   transition: height 0.2s ease;
   will-change: height;

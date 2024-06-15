@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mypage/static/css/main.7137328c.css",
-    "main.js": "/mypage/static/js/main.51efdbce.js",
+    "main.css": "/mypage/static/css/main.c5fc783b.css",
+    "main.js": "/mypage/static/js/main.504b0078.js",
     "static/js/453.01c969ee.chunk.js": "/mypage/static/js/453.01c969ee.chunk.js",
     "static/media/me2.png": "/mypage/static/media/me2.f7c7322756c4ddff9151.png",
     "static/media/VTS_logo2.png": "/mypage/static/media/VTS_logo2.6573cee218da3b71b9fe.png",
     "static/media/cofa32.png": "/mypage/static/media/cofa32.f703abd50218c2d34703.png",
     "index.html": "/mypage/index.html",
-    "main.7137328c.css.map": "/mypage/static/css/main.7137328c.css.map",
-    "main.51efdbce.js.map": "/mypage/static/js/main.51efdbce.js.map",
+    "main.c5fc783b.css.map": "/mypage/static/css/main.c5fc783b.css.map",
+    "main.504b0078.js.map": "/mypage/static/js/main.504b0078.js.map",
     "453.01c969ee.chunk.js.map": "/mypage/static/js/453.01c969ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7137328c.css",
-    "static/js/main.51efdbce.js"
+    "static/css/main.c5fc783b.css",
+    "static/js/main.504b0078.js"
   ]
 }
