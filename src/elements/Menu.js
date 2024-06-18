@@ -31,9 +31,9 @@ const Menu = (props) => {
               <span onClick={() => props.popUp("projects")}>Projects</span>
             </li>
           </ul>
-          <a href="/" className="close" onClick={showMenuFunction}>
+          <span className="close" onClick={showMenuFunction}>
             Close
-          </a>
+          </span>
         </div>
       </nav>
 

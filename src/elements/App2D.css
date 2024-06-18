@@ -276,7 +276,7 @@ img {
 .innerMenu ul {
   padding: 30px;
 }
-.innerMenu .spans span {
+.innerMenu span {
   cursor: pointer;
 }
 
