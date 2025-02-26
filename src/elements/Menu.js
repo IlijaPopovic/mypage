@@ -1,6 +1,6 @@
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Menu = (props) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -9,6 +9,19 @@ const Menu = (props) => {
   const childClick = (event) => {
     event.stopPropagation();
   };
+
+  useEffect(() => {
+    if (showMenu) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [showMenu]);
+
   return (
     <>
       <nav

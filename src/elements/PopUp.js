@@ -1,4 +1,5 @@
 import "./App2D.css";
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleLeft } from "@fortawesome/free-regular-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -7,6 +8,18 @@ const PopUp = (props) => {
   const childClick = (event) => {
     event.stopPropagation();
   };
+
+  useEffect(() => {
+    if (props.showPop) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [props.showPop]);
 
   const gitLink = <a href={props.content.gitLink}>GitHub</a>;
 

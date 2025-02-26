@@ -359,6 +359,7 @@ img {
   transition: height 0.2s ease;
   will-change: height;
   line-height: 1.05em;
+  overflow: auto;
 }
 
 .pop-section .pop-body div {
@@ -556,6 +557,10 @@ img {
   display: flex !important;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -619,6 +624,7 @@ img {
   .inner {
     width: 100%;
     padding: 15px 20px 20px 20px;
+    text-align: left;
   }
   .inner .content {
     padding: 0px 20px;
